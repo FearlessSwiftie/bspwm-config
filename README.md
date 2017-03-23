@@ -1,2 +1,4 @@
-# bspwm-config
-Collection of my config files to easily configure bspwm on any computer
+# dotfiles
+personal dotfiles
+
+thanks to @SavoyRoad for inspiration on some files
