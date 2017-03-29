@@ -44,15 +44,15 @@ XF86AudioMute
 
 # full-screen screenshot
 super + x
-	scrot '%y%m%d-%k%M.png' -e 'mv $f ~/Pictures/screenshots'
+	scrot '%y%m%d-%I%M.png' -e 'mv $f ~/Pictures/screenshots'
 
 # active window screenshot
 super + shift + x
-	scrot '%y%m%d-%k%M.png' -e 'mv $f ~/Pictures/screenshots' -u
+	scrot '%y%m%d-%I%M.png' -e 'mv $f ~/Pictures/screenshots' -u
 
 # select rectangle screenshot
 super + shift + @s
-	scrot -s '%y%m%d-%k%M.png' -e 'mv $f ~/Pictures/screenshots'
+	scrot -s '%y%m%d-%I%M.png' -e 'mv $f ~/Pictures/screenshots'
 
 
 #
