@@ -18,6 +18,6 @@ personal dotfiles
 * feh:			`sudo apt install feh`
 
 # screenshot
-![alt tag](screenshot.jpg?raw=true)
+![alt tag](screenshot.png?raw=true)
 
 thanks to @SavoyRoad for inspiration on some files
