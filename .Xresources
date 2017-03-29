@@ -1,0 +1,60 @@
+!--- font ---
+*font: xft:Hack:size=10
+
+!--- remove scrollbar ---
+*scrollBar: false
+
+! --- special colors ---
+*background: #303030
+*foreground: #d9e6f2
+! --- end ---
+
+! no effect - :3
+*color0: #afffff
+
+! artist not selected
+*color1: #afffff
+
+! song not selected
+*color2: #ffafdf
+
+! no effect - :3
+*color3: #afffff
+
+! album not selected
+*color4: #ffafdf
+
+! song length not selected
+*color5: #afffff
+
+! no effect - :3
+*color6: #ffafdf
+
+! no effect - :3
+*color7: #afffff
+
+! no effect - gray
+*color8: #262626
+
+! artist selected - current artist
+*color9: #ffafdf
+
+! song selected - current album - playhead - terminal
+*color10: #afffff
+
+! current year
+*color11: #dfafff
+
+! album selected - current song
+*color12: #afffff
+
+! song length selected - ?
+*color13: #ffafdf
+
+! bright_magenta
+*color14: #ff0080
+
+! bright_white
+*color15: #ffffff
+
+! --- end ---

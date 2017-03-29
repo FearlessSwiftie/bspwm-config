@@ -35,8 +35,8 @@ XF86AudioLowerVolume
 	amixer -c 0 set Master 2db-
 
 # mute volume
-#XF86AudioMute
-#	amixer -c 0 set Master {0%,100%}
+XF86AudioMute
+	amixer -c 0 set Master {0%,100%}
 
 # mute volume 2
 #XF86AudioMute
@@ -44,15 +44,15 @@ XF86AudioLowerVolume
 
 # full-screen screenshot
 super + x
-	scrot '%y%m%d-%k%M.png' -e 'mv $f ~/med/pic/shots-p'
+	scrot '%y%m%d-%k%M.png' -e 'mv $f ~/Pictures/screenshots'
 
 # active window screenshot
 super + shift + x
-	scrot '%y%m%d-%k%M.png' -e 'mv $f ~/med/pic/shots-p' -u
+	scrot '%y%m%d-%k%M.png' -e 'mv $f ~/Pictures/screenshots' -u
 
 # select rectangle screenshot
 super + shift + @s
-	scrot -s '%y%m%d-%k%M.png' -e 'mv $f ~/med/pic/shots-p'
+	scrot -s '%y%m%d-%k%M.png' -e 'mv $f ~/Pictures/screenshots'
 
 
 #
